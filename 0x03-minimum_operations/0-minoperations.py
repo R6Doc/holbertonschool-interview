@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-""" Calculate fewest number of Operations"""
+""" Calculate fewest number of Operations """
 
 
 def minOperations(n):

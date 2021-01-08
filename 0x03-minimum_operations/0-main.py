@@ -8,15 +8,11 @@ minOperations = __import__('0-minoperations').minOperations
 n = 4
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
 
-n = 9
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
 n = 12
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
 
-n = 23
+n = 15
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
 
-
-n = 56
+n = 20
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))

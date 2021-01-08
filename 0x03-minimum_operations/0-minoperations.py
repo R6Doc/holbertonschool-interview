@@ -19,3 +19,4 @@ def minOperations(n):
         char_number += copy
         count += 1
     return count
+    

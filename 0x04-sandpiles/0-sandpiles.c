@@ -8,7 +8,7 @@
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
 	int i;
-    int j;
+	int j;
 
 	for (i = 0; i < len; i++)
 	{
@@ -19,12 +19,12 @@ void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 	while (ifunstable(grid1, grid2))
 	{
 		printf("=\n");
-        i = 0;
+		i = 0;
 		while (i < len)
 		{
 			for (j = 0; j < len; j++)
 				printf((j == len - 1) ? "%d\n" : "%d ", grid1[i][j]);
-            i++;
+			i++;
 		}
 		for (i = 0; i < len; i++)
 		{
@@ -48,7 +48,7 @@ void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 }
 
 /**
- * is_unstable - Checks if a sandpile is unstable
+ * ifunstable - Checks if a sandpile is unstable
  * @grid: sandpile
  * @backup: copy of sandpile to check
  * Return: 1 if unstable 0 if stable
@@ -56,8 +56,8 @@ void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 int ifunstable(int grid[3][3], int backup[3][3])
 {
 	int i = 0;
-    int j;
-    int unstable = 0;
+	int j;
+	int unstable = 0;
 
 	while (i < len)
 	{
@@ -67,7 +67,7 @@ int ifunstable(int grid[3][3], int backup[3][3])
 			if (backup[i][j] > 3)
 				unstable = 1;
 		}
-        i++;
+		i++;
 	}
 
 	return (unstable);

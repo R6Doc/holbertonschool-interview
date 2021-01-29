@@ -19,6 +19,7 @@ counts = {
     'lines': 1
 }
 
+
 def printv():
     """print status code and size"""
     print('File size: {}'.format(counts['size']))
